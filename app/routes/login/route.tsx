@@ -87,7 +87,7 @@ function Main() {
     <div>
       <Header />
       <main className="flex flex-col items-center justify-center pt-16 pb-4">
-        <Form method="POST">
+        <Form class="fieldset" method="POST">
           <label class="input validator">
             <svg class="h-[1em] opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
               <g
@@ -112,7 +112,7 @@ function Main() {
               title="Only letters, numbers or dash"
             />
           </label>
-          <p class="validator-hint">
+          <p class="validator-hint hidden">
             Must be 3 to 30 characters
             <br />containing only letters, numbers or dash
           </p>
