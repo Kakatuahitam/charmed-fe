@@ -87,9 +87,9 @@ function Main() {
     <div>
       <Header />
       <main className="flex flex-col items-center justify-center pt-16 pb-4">
-        <Form class="fieldset" method="POST">
-          <label class="input validator">
-            <svg class="h-[1em] opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <Form className="fieldset" method="POST">
+          <label className="input validator">
+            <svg className="h-[1em] opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
               <g
                 stroke-linejoin="round"
                 stroke-linecap="round"
@@ -112,13 +112,13 @@ function Main() {
               title="Only letters, numbers or dash"
             />
           </label>
-          <p class="validator-hint hidden">
+          <p className="validator-hint hidden">
             Must be 3 to 30 characters
             <br />containing only letters, numbers or dash
           </p>
 
-          <label class="input validator">
-            <svg class="h-[1em] opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <label className="input validator">
+            <svg className="h-[1em] opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
               <g
                 stroke-linejoin="round"
                 stroke-linecap="round"
@@ -142,12 +142,12 @@ function Main() {
               title="Must be more than 8 characters, including number, lowercase letter, uppercase letter"
             />
           </label>
-          <p class="validator-hint hidden">
+          <p className="validator-hint hidden">
             Must be more than 8 characters, including
             <br />At least one number <br />At least one lowercase letter <br />At least one uppercase letter
           </p>
 
-          <button type="submit" class="btn btn-neutral mt-4">Log In</button>
+          <button type="submit" className="btn btn-neutral mt-4">Log In</button>
         </Form>
       </main>
       <Footer />

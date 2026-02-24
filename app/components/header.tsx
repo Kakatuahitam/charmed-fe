@@ -1,12 +1,12 @@
 export function Header() {
   return (
-    <header class="sticky top-0 z-50">
-      <div class="navbar bg-base-100 shadow-sm">
-        <div class="flex-1">
-          <a class="btn btn-ghost text-xl" href="/">CharmedScout</a>
+    <header className="sticky top-0 z-50">
+      <div className="navbar bg-base-100 shadow-sm">
+        <div className="flex-1">
+          <a className="btn btn-ghost text-xl" href="/">CharmedScout</a>
         </div>
-        <div class="flex-none">
-          <label class="btn" htmlFor="my_modal_6">
+        <div className="flex-none">
+          <label className="btn" htmlFor="my_modal_6">
             <a href="/login">Log In</a>
           </label>
         </div>
